@@ -26,5 +26,25 @@ public class learnSet {
 
         // 🔹 isEmpty()
         System.out.println("Is Empty: " + set.isEmpty());
+
+
+        
+        // 🔹 size()
+        System.out.println("Size: " + set.size());
+
+
+        // 🔹 contains()
+        System.out.println("Contains 'Python': " + set.contains("Python"));
+
+        // 🔹 containsAll()
+        System.out.println("Contains all elements of anotherSet: " + set.containsAll(anotherSet));
+
+        // 🔹 toString()
+        System.out.println("ToString: " + set.toString());
+
+        // 🔹 hashCode()
+
+        System.out.println("HashCode: " + set.hashCode());
+        
     }
 }
