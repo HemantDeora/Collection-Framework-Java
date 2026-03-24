@@ -63,12 +63,6 @@ public class TreeMapDemo {
         System.out.println("Keys: " + map.keySet());
         System.out.println("Values: " + map.values());
 
-        // 🔹 remove()
-        map.remove(3);
-        System.out.println("After removing key 3: " + map);
-
-        // 🔹 clear()
-        map.clear();
-        System.out.println("After clear(): " + map);
+      
     }
 }
